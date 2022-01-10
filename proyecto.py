@@ -18,3 +18,4 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
+print('Bienvenido al comparador de centros de la Comunidad de Madrid\n')
