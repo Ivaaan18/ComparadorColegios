@@ -19,3 +19,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 print('Bienvenido al comparador de centros de la Comunidad de Madrid\n')
+
+respuesta =''
+bandera = 0
+
+while respuesta != 'S' and respuesta != 'N':
+    respuesta = input('Si es la primera vez que ejecutas el programa diga S (S o N) ')
+    respuesta = respuesta.upper()
+    if respuesta != 'S' and respuesta != 'N':
+        print('¡¡ERROR!!: Escriba S o N')
