@@ -1,0 +1,5 @@
+*.csv
+*.png
+*.jpg
+.ipynb_checkpoints/
+chromedriver.exe
