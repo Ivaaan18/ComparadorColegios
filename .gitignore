@@ -3,3 +3,4 @@
 *.jpg
 .ipynb_checkpoints/
 chromedriver.exe
+*.txt
