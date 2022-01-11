@@ -427,3 +427,16 @@ def bucle1():
         respuesta = respuesta.upper()
     if respuesta != 'S' and respuesta != 'N':
 
+if __name__ == '__main__':
+
+    respuesta = bucle1()
+
+    if respuesta == 'S':
+        # csv1()
+        listado2()
+        obtencion_datos()
+        # os.system ("cls")
+        # comparador_centros()
+    else:
+        comparador_centros()
+
